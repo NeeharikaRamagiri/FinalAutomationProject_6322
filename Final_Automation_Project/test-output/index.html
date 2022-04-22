@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\samee\AppData\Local\Temp\testng-eclipse-432056720\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 12 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Earn100">boat_Earn100</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Gifting">boat_Gifting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Logout">boat_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_ManageYourOrder">boat_ManageYourOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_MeettheBoatHeads">boat_MeettheBoatHeads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_MyAccount">boat_MyAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_OfferZone">boat_OfferZone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_ReturnPolicy">boat_ReturnPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Sailwithboat">boat_Sailwithboat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_ServiceCenter">boat_ServiceCenter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Waranty">boat_Waranty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_WhatfloatsYourBoat">boat_WhatfloatsYourBoat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_GiftCard">boat_GiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Login">boat_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Searchbox">boat_Searchbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_Shop">boat_Shop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="boatLifeStyle.Boat_Shop" class="method navigator-link" hash-for-method="boat_smokeTesting">boat_smokeTesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">boatLifeStyle.Boat_Shop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Earn100">
+                  </a> <!-- boat_Earn100 -->
+                  <span class="method-name">boat_Earn100</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;has-children&quot; aria-haspopup=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (711, 10). Other element would receive the click: &lt;nmg-templates template=&quot;fun-4-template&quot; props-as-string=&quot;{&amp;quot;logoImage&amp;quot;:{&amp;quot;src&amp;quot;:&amp;quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&amp;quot;,&amp;quot;width&amp;quot;:100,&amp;quot;height&amp;quot;:75},&amp;quot;couponCodeLabel&amp;quot;:{&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;},&amp;quot;couponCodeLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[8,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;position&amp;quot;:&amp;quot;center_center&amp;quot;,&amp;quot;headingALabel&amp;quot;:{&amp;quot;value&amp;quot;:[&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(223, 15, 15);\&amp;quot;&gt;SPECIAL&lt;/span&gt;&amp;quot;,&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(224, 13, 13);\&amp;quot;&gt;OFF&lt;/span&gt;&amp;quot;],&amp;quot;color&amp;quot;:&amp;quot;rgb(223, 15, 15)&amp;quot;},&amp;quot;headingALabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[16,42],&amp;quot;sizeMobile&amp;quot;:[12,32]},&amp;quot;headingBLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255); font-weight: bold;\&amp;quot;&gt;ONLY FOR YOU!&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;headingBLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[12,16],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;timeHeadlineLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(254, 251, 251); font-weight: bold;\&amp;quot;&gt;Offer expires:&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FEFBFB&amp;quot;},&amp;quot;timeHeadlineLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;timePhraseLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;By the end of the day&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;timePhraseLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;ctaLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(0, 0, 0);\&amp;quot;&gt;Copy Coupon Code&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaConfirmationLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;Copied!&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;noteLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255);\&amp;quot;&gt;*SOME ITEMS MAY BE EXCLUDED&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;noteLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;poweredByLabel&amp;quot;:null,&amp;quot;overlay&amp;quot;:false,&amp;quot;mainColor&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;isTimer&amp;quot;:true,&amp;quot;complementaryColors&amp;quot;:[&amp;quot;#FFFAFA&amp;quot;,&amp;quot;#B71616&amp;quot;,&amp;quot;#000000&amp;quot;],&amp;quot;couponCodeVisible&amp;quot;:false,&amp;quot;withXButton&amp;quot;:true,&amp;quot;positionType&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;timeBackgroundColor&amp;quot;:&amp;quot;unset&amp;quot;,&amp;quot;endTime&amp;quot;:&amp;quot;2022-04-22T17:59:59.000Z&amp;quot;,&amp;quot;scale&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;showBlackBG&amp;quot;:true,&amp;quot;isClient&amp;quot;:true,&amp;quot;discountValue&amp;quot;:10,&amp;quot;currency&amp;quot;:&amp;quot;%&amp;quot;,&amp;quot;couponCode&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;}&quot; id=&quot;nmg-templates&quot; class=&quot;needsclick&quot; dates-as-string=&quot;[&amp;quot;endTime&amp;quot;]&quot; style=&quot;pointer-events: auto;&quot;&gt;&lt;/nmg-templates&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_Earn100(Boat_Shop.java:208)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Gifting">
+                  </a> <!-- boat_Gifting -->
+                  <span class="method-name">boat_Gifting</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;has-children&quot; aria-haspopup=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (711, 10). Other element would receive the click: &lt;nmg-templates template=&quot;fun-4-template&quot; props-as-string=&quot;{&amp;quot;logoImage&amp;quot;:{&amp;quot;src&amp;quot;:&amp;quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&amp;quot;,&amp;quot;width&amp;quot;:100,&amp;quot;height&amp;quot;:75},&amp;quot;couponCodeLabel&amp;quot;:{&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;},&amp;quot;couponCodeLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[8,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;position&amp;quot;:&amp;quot;center_center&amp;quot;,&amp;quot;headingALabel&amp;quot;:{&amp;quot;value&amp;quot;:[&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(223, 15, 15);\&amp;quot;&gt;SPECIAL&lt;/span&gt;&amp;quot;,&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(224, 13, 13);\&amp;quot;&gt;OFF&lt;/span&gt;&amp;quot;],&amp;quot;color&amp;quot;:&amp;quot;rgb(223, 15, 15)&amp;quot;},&amp;quot;headingALabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[16,42],&amp;quot;sizeMobile&amp;quot;:[12,32]},&amp;quot;headingBLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255); font-weight: bold;\&amp;quot;&gt;ONLY FOR YOU!&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;headingBLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[12,16],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;timeHeadlineLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(254, 251, 251); font-weight: bold;\&amp;quot;&gt;Offer expires:&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FEFBFB&amp;quot;},&amp;quot;timeHeadlineLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;timePhraseLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;By the end of the day&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;timePhraseLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;ctaLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(0, 0, 0);\&amp;quot;&gt;Copy Coupon Code&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaConfirmationLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;Copied!&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;noteLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255);\&amp;quot;&gt;*SOME ITEMS MAY BE EXCLUDED&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;noteLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;poweredByLabel&amp;quot;:null,&amp;quot;overlay&amp;quot;:false,&amp;quot;mainColor&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;isTimer&amp;quot;:true,&amp;quot;complementaryColors&amp;quot;:[&amp;quot;#FFFAFA&amp;quot;,&amp;quot;#B71616&amp;quot;,&amp;quot;#000000&amp;quot;],&amp;quot;couponCodeVisible&amp;quot;:false,&amp;quot;withXButton&amp;quot;:true,&amp;quot;positionType&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;timeBackgroundColor&amp;quot;:&amp;quot;unset&amp;quot;,&amp;quot;endTime&amp;quot;:&amp;quot;2022-04-22T17:59:59.000Z&amp;quot;,&amp;quot;scale&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;showBlackBG&amp;quot;:true,&amp;quot;isClient&amp;quot;:true,&amp;quot;discountValue&amp;quot;:10,&amp;quot;currency&amp;quot;:&amp;quot;%&amp;quot;,&amp;quot;couponCode&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;}&quot; id=&quot;nmg-templates&quot; class=&quot;needsclick&quot; dates-as-string=&quot;[&amp;quot;endTime&amp;quot;]&quot; style=&quot;pointer-events: auto;&quot;&gt;&lt;/nmg-templates&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_Gifting(Boat_Shop.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Logout">
+                  </a> <!-- boat_Logout -->
+                  <span class="method-name">boat_Logout</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img class=&quot; ls-is-cached lazyloaded&quot; data-src=&quot;https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823&quot; alt=&quot;user&quot; src=&quot;https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823&quot;&gt; is not clickable at point (1257, 10). Other element would receive the click: &lt;iframe id=&quot;BIS_frame&quot; frameborder=&quot;0&quot; src=&quot;about:blank&quot; allowtransparency=&quot;true&quot; style=&quot;display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_Logout(Boat_Shop.java:328)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_ManageYourOrder">
+                  </a> <!-- boat_ManageYourOrder -->
+                  <span class="method-name">boat_ManageYourOrder</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img class=&quot; ls-is-cached lazyloaded&quot; data-src=&quot;https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823&quot; alt=&quot;user&quot; src=&quot;https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823&quot;&gt; is not clickable at point (1257, 72). Other element would receive the click: &lt;iframe id=&quot;BIS_frame&quot; frameborder=&quot;0&quot; src=&quot;about:blank&quot; allowtransparency=&quot;true&quot; style=&quot;display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_ManageYourOrder(Boat_Shop.java:270)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_MeettheBoatHeads">
+                  </a> <!-- boat_MeettheBoatHeads -->
+                  <span class="method-name">boat_MeettheBoatHeads</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;has-children&quot; aria-haspopup=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (711, 10). Other element would receive the click: &lt;nmg-templates template=&quot;fun-4-template&quot; props-as-string=&quot;{&amp;quot;logoImage&amp;quot;:{&amp;quot;src&amp;quot;:&amp;quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&amp;quot;,&amp;quot;width&amp;quot;:100,&amp;quot;height&amp;quot;:75},&amp;quot;couponCodeLabel&amp;quot;:{&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;},&amp;quot;couponCodeLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[8,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;position&amp;quot;:&amp;quot;center_center&amp;quot;,&amp;quot;headingALabel&amp;quot;:{&amp;quot;value&amp;quot;:[&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(223, 15, 15);\&amp;quot;&gt;SPECIAL&lt;/span&gt;&amp;quot;,&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(224, 13, 13);\&amp;quot;&gt;OFF&lt;/span&gt;&amp;quot;],&amp;quot;color&amp;quot;:&amp;quot;rgb(223, 15, 15)&amp;quot;},&amp;quot;headingALabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[16,42],&amp;quot;sizeMobile&amp;quot;:[12,32]},&amp;quot;headingBLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255); font-weight: bold;\&amp;quot;&gt;ONLY FOR YOU!&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;headingBLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[12,16],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;timeHeadlineLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(254, 251, 251); font-weight: bold;\&amp;quot;&gt;Offer expires:&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FEFBFB&amp;quot;},&amp;quot;timeHeadlineLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;timePhraseLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;By the end of the day&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;timePhraseLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;ctaLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(0, 0, 0);\&amp;quot;&gt;Copy Coupon Code&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaConfirmationLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;Copied!&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;noteLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255);\&amp;quot;&gt;*SOME ITEMS MAY BE EXCLUDED&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;noteLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;poweredByLabel&amp;quot;:null,&amp;quot;overlay&amp;quot;:false,&amp;quot;mainColor&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;isTimer&amp;quot;:true,&amp;quot;complementaryColors&amp;quot;:[&amp;quot;#FFFAFA&amp;quot;,&amp;quot;#B71616&amp;quot;,&amp;quot;#000000&amp;quot;],&amp;quot;couponCodeVisible&amp;quot;:false,&amp;quot;withXButton&amp;quot;:true,&amp;quot;positionType&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;timeBackgroundColor&amp;quot;:&amp;quot;unset&amp;quot;,&amp;quot;endTime&amp;quot;:&amp;quot;2022-04-22T17:59:59.000Z&amp;quot;,&amp;quot;scale&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;showBlackBG&amp;quot;:true,&amp;quot;isClient&amp;quot;:true,&amp;quot;discountValue&amp;quot;:10,&amp;quot;currency&amp;quot;:&amp;quot;%&amp;quot;,&amp;quot;couponCode&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;}&quot; id=&quot;nmg-templates&quot; class=&quot;needsclick&quot; dates-as-string=&quot;[&amp;quot;endTime&amp;quot;]&quot; style=&quot;pointer-events: auto;&quot;&gt;&lt;/nmg-templates&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_MeettheBoatHeads(Boat_Shop.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_MyAccount">
+                  </a> <!-- boat_MyAccount -->
+                  <span class="method-name">boat_MyAccount</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img class=&quot; ls-is-cached lazyloaded&quot; data-src=&quot;https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823&quot; alt=&quot;user&quot; src=&quot;https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823&quot;&gt; is not clickable at point (1257, 72). Other element would receive the click: &lt;iframe id=&quot;BIS_frame&quot; frameborder=&quot;0&quot; src=&quot;about:blank&quot; allowtransparency=&quot;true&quot; style=&quot;display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_MyAccount(Boat_Shop.java:282)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_OfferZone">
+                  </a> <!-- boat_OfferZone -->
+                  <span class="method-name">boat_OfferZone</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;has-children&quot; aria-haspopup=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (711, 10). Other element would receive the click: &lt;nmg-templates template=&quot;fun-4-template&quot; props-as-string=&quot;{&amp;quot;logoImage&amp;quot;:{&amp;quot;src&amp;quot;:&amp;quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&amp;quot;,&amp;quot;width&amp;quot;:100,&amp;quot;height&amp;quot;:75},&amp;quot;couponCodeLabel&amp;quot;:{&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;},&amp;quot;couponCodeLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[8,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;position&amp;quot;:&amp;quot;center_center&amp;quot;,&amp;quot;headingALabel&amp;quot;:{&amp;quot;value&amp;quot;:[&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(223, 15, 15);\&amp;quot;&gt;SPECIAL&lt;/span&gt;&amp;quot;,&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(224, 13, 13);\&amp;quot;&gt;OFF&lt;/span&gt;&amp;quot;],&amp;quot;color&amp;quot;:&amp;quot;rgb(223, 15, 15)&amp;quot;},&amp;quot;headingALabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[16,42],&amp;quot;sizeMobile&amp;quot;:[12,32]},&amp;quot;headingBLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255); font-weight: bold;\&amp;quot;&gt;ONLY FOR YOU!&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;headingBLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[12,16],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;timeHeadlineLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(254, 251, 251); font-weight: bold;\&amp;quot;&gt;Offer expires:&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FEFBFB&amp;quot;},&amp;quot;timeHeadlineLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;timePhraseLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;By the end of the day&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;timePhraseLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;ctaLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(0, 0, 0);\&amp;quot;&gt;Copy Coupon Code&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaConfirmationLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;Copied!&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;noteLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255);\&amp;quot;&gt;*SOME ITEMS MAY BE EXCLUDED&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;noteLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;poweredByLabel&amp;quot;:null,&amp;quot;overlay&amp;quot;:false,&amp;quot;mainColor&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;isTimer&amp;quot;:true,&amp;quot;complementaryColors&amp;quot;:[&amp;quot;#FFFAFA&amp;quot;,&amp;quot;#B71616&amp;quot;,&amp;quot;#000000&amp;quot;],&amp;quot;couponCodeVisible&amp;quot;:false,&amp;quot;withXButton&amp;quot;:true,&amp;quot;positionType&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;timeBackgroundColor&amp;quot;:&amp;quot;unset&amp;quot;,&amp;quot;endTime&amp;quot;:&amp;quot;2022-04-22T17:59:59.000Z&amp;quot;,&amp;quot;scale&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;showBlackBG&amp;quot;:true,&amp;quot;isClient&amp;quot;:true,&amp;quot;discountValue&amp;quot;:10,&amp;quot;currency&amp;quot;:&amp;quot;%&amp;quot;,&amp;quot;couponCode&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;}&quot; id=&quot;nmg-templates&quot; class=&quot;needsclick&quot; dates-as-string=&quot;[&amp;quot;endTime&amp;quot;]&quot; style=&quot;pointer-events: auto;&quot;&gt;&lt;/nmg-templates&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_OfferZone(Boat_Shop.java:154)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_ReturnPolicy">
+                  </a> <!-- boat_ReturnPolicy -->
+                  <span class="method-name">boat_ReturnPolicy</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;menu-tier-2&quot;]/ul/li[3]&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, findElement {using=xpath, value=//*[@id=&quot;menu-tier-2&quot;]/ul/li[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at boatLifeStyle.Boat_Shop.boat_ReturnPolicy(Boat_Shop.java:319)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Sailwithboat">
+                  </a> <!-- boat_Sailwithboat -->
+                  <span class="method-name">boat_Sailwithboat</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/collections/sail-with-boat&quot;&gt;...&lt;/a&gt; is not clickable at point (617, 10). Other element would receive the click: &lt;nmg-templates template=&quot;fun-4-template&quot; props-as-string=&quot;{&amp;quot;logoImage&amp;quot;:{&amp;quot;src&amp;quot;:&amp;quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&amp;quot;,&amp;quot;width&amp;quot;:100,&amp;quot;height&amp;quot;:75},&amp;quot;couponCodeLabel&amp;quot;:{&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;},&amp;quot;couponCodeLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[8,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;position&amp;quot;:&amp;quot;center_center&amp;quot;,&amp;quot;headingALabel&amp;quot;:{&amp;quot;value&amp;quot;:[&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(223, 15, 15);\&amp;quot;&gt;SPECIAL&lt;/span&gt;&amp;quot;,&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(224, 13, 13);\&amp;quot;&gt;OFF&lt;/span&gt;&amp;quot;],&amp;quot;color&amp;quot;:&amp;quot;rgb(223, 15, 15)&amp;quot;},&amp;quot;headingALabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[16,42],&amp;quot;sizeMobile&amp;quot;:[12,32]},&amp;quot;headingBLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255); font-weight: bold;\&amp;quot;&gt;ONLY FOR YOU!&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;headingBLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[12,16],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;timeHeadlineLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(254, 251, 251); font-weight: bold;\&amp;quot;&gt;Offer expires:&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FEFBFB&amp;quot;},&amp;quot;timeHeadlineLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;timePhraseLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;By the end of the day&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;timePhraseLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;ctaLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(0, 0, 0);\&amp;quot;&gt;Copy Coupon Code&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaConfirmationLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;Copied!&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;noteLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255);\&amp;quot;&gt;*SOME ITEMS MAY BE EXCLUDED&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;noteLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;poweredByLabel&amp;quot;:null,&amp;quot;overlay&amp;quot;:false,&amp;quot;mainColor&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;isTimer&amp;quot;:true,&amp;quot;complementaryColors&amp;quot;:[&amp;quot;#FFFAFA&amp;quot;,&amp;quot;#B71616&amp;quot;,&amp;quot;#000000&amp;quot;],&amp;quot;couponCodeVisible&amp;quot;:false,&amp;quot;withXButton&amp;quot;:true,&amp;quot;positionType&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;timeBackgroundColor&amp;quot;:&amp;quot;unset&amp;quot;,&amp;quot;endTime&amp;quot;:&amp;quot;2022-04-22T17:59:59.000Z&amp;quot;,&amp;quot;scale&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;showBlackBG&amp;quot;:true,&amp;quot;isClient&amp;quot;:true,&amp;quot;discountValue&amp;quot;:10,&amp;quot;currency&amp;quot;:&amp;quot;%&amp;quot;,&amp;quot;couponCode&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;}&quot; id=&quot;nmg-templates&quot; class=&quot;needsclick&quot; dates-as-string=&quot;[&amp;quot;endTime&amp;quot;]&quot; style=&quot;pointer-events: auto;&quot;&gt;&lt;/nmg-templates&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=a87e21a9-6b23-41ee-85cd-bacb3d23427c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //a[@href=&apos;/collections/sail-with-boat&apos;]]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_Sailwithboat(Boat_Shop.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_ServiceCenter">
+                  </a> <!-- boat_ServiceCenter -->
+                  <span class="method-name">boat_ServiceCenter</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;menu-tier-2&quot;]/ul/li[4]/a&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, findElement {using=xpath, value=//*[@id=&quot;menu-tier-2&quot;]/ul/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at boatLifeStyle.Boat_Shop.boat_ServiceCenter(Boat_Shop.java:294)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Waranty">
+                  </a> <!-- boat_Waranty -->
+                  <span class="method-name">boat_Waranty</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;http://support.boat-lifestyle.com/&quot; class=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (815, 173). Other element would receive the click: &lt;iframe id=&quot;BIS_frame&quot; frameborder=&quot;0&quot; src=&quot;about:blank&quot; allowtransparency=&quot;true&quot; style=&quot;display: block;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=d5691d7a-2da6-43c4-9548-eac3762f23cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;shopify-section-footer&quot;]/div[1]/div[2]/div[1]/div[2]/div[2]/div/div/ul/li/ul/li[2]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_Waranty(Boat_Shop.java:312)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_WhatfloatsYourBoat">
+                  </a> <!-- boat_WhatfloatsYourBoat -->
+                  <span class="method-name">boat_WhatfloatsYourBoat</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;has-children&quot; aria-haspopup=&quot;true&quot;&gt;...&lt;/a&gt; is not clickable at point (711, 10). Other element would receive the click: &lt;nmg-templates template=&quot;fun-4-template&quot; props-as-string=&quot;{&amp;quot;logoImage&amp;quot;:{&amp;quot;src&amp;quot;:&amp;quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&amp;quot;,&amp;quot;width&amp;quot;:100,&amp;quot;height&amp;quot;:75},&amp;quot;couponCodeLabel&amp;quot;:{&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;},&amp;quot;couponCodeLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[8,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;position&amp;quot;:&amp;quot;center_center&amp;quot;,&amp;quot;headingALabel&amp;quot;:{&amp;quot;value&amp;quot;:[&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(223, 15, 15);\&amp;quot;&gt;SPECIAL&lt;/span&gt;&amp;quot;,&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(224, 13, 13);\&amp;quot;&gt;OFF&lt;/span&gt;&amp;quot;],&amp;quot;color&amp;quot;:&amp;quot;rgb(223, 15, 15)&amp;quot;},&amp;quot;headingALabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[16,42],&amp;quot;sizeMobile&amp;quot;:[12,32]},&amp;quot;headingBLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255); font-weight: bold;\&amp;quot;&gt;ONLY FOR YOU!&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;headingBLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[12,16],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;timeHeadlineLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(254, 251, 251); font-weight: bold;\&amp;quot;&gt;Offer expires:&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FEFBFB&amp;quot;},&amp;quot;timeHeadlineLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;timePhraseLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;By the end of the day&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;timePhraseLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,10]},&amp;quot;ctaLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;font-weight: bold; color: rgb(0, 0, 0);\&amp;quot;&gt;Copy Coupon Code&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaConfirmationLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;Copied!&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#000000&amp;quot;},&amp;quot;ctaLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,14],&amp;quot;sizeMobile&amp;quot;:[8,16]},&amp;quot;noteLabel&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;&lt;span style=\&amp;quot;color: rgb(255, 255, 255);\&amp;quot;&gt;*SOME ITEMS MAY BE EXCLUDED&lt;/span&gt;&amp;quot;,&amp;quot;color&amp;quot;:&amp;quot;#FFFFFF&amp;quot;},&amp;quot;noteLabelSizing&amp;quot;:{&amp;quot;size&amp;quot;:[10,12],&amp;quot;sizeMobile&amp;quot;:[6,8]},&amp;quot;poweredByLabel&amp;quot;:null,&amp;quot;overlay&amp;quot;:false,&amp;quot;mainColor&amp;quot;:&amp;quot;#000000&amp;quot;,&amp;quot;isTimer&amp;quot;:true,&amp;quot;complementaryColors&amp;quot;:[&amp;quot;#FFFAFA&amp;quot;,&amp;quot;#B71616&amp;quot;,&amp;quot;#000000&amp;quot;],&amp;quot;couponCodeVisible&amp;quot;:false,&amp;quot;withXButton&amp;quot;:true,&amp;quot;positionType&amp;quot;:&amp;quot;absolute&amp;quot;,&amp;quot;timeBackgroundColor&amp;quot;:&amp;quot;unset&amp;quot;,&amp;quot;endTime&amp;quot;:&amp;quot;2022-04-22T17:59:59.000Z&amp;quot;,&amp;quot;scale&amp;quot;:&amp;quot;1&amp;quot;,&amp;quot;showBlackBG&amp;quot;:true,&amp;quot;isClient&amp;quot;:true,&amp;quot;discountValue&amp;quot;:10,&amp;quot;currency&amp;quot;:&amp;quot;%&amp;quot;,&amp;quot;couponCode&amp;quot;:&amp;quot;NMG-U8N6-GVHD-58GY&amp;quot;}&quot; id=&quot;nmg-templates&quot; class=&quot;needsclick&quot; dates-as-string=&quot;[&amp;quot;endTime&amp;quot;]&quot; style=&quot;pointer-events: auto;&quot;&gt;&lt;/nmg-templates&gt;
+  (Session info: chrome=100.0.4896.127)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-M3CURGL&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -&gt; xpath: //*[@id=&quot;pageheader&quot;]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at boatLifeStyle.Boat_Shop.boat_WhatfloatsYourBoat(Boat_Shop.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">boatLifeStyle.Boat_Shop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_GiftCard">
+                  </a> <!-- boat_GiftCard -->
+                  <span class="method-name">boat_GiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Login">
+                  </a> <!-- boat_Login -->
+                  <span class="method-name">boat_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Searchbox">
+                  </a> <!-- boat_Searchbox -->
+                  <span class="method-name">boat_Searchbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_Shop">
+                  </a> <!-- boat_Shop -->
+                  <span class="method-name">boat_Shop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="boat_smokeTesting">
+                  </a> <!-- boat_smokeTesting -->
+                  <span class="method-name">boat_smokeTesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\samee\AppData\Local\Temp\testng-eclipse-432056720\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;boatLifeStyle.Boat_Shop&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'boat_smokeTesting')
+data.setCell(0, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(0, 3, 35287);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'boat_Searchbox')
+data.setCell(1, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(1, 3, 34249);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'boat_Login')
+data.setCell(2, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(2, 3, 26975);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'boat_Shop')
+data.setCell(3, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(3, 3, 24076);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'boat_GiftCard')
+data.setCell(4, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(4, 3, 15226);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'boat_Sailwithboat')
+data.setCell(5, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(5, 3, 5777);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'boat_Waranty')
+data.setCell(6, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(6, 3, 3185);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'boat_Gifting')
+data.setCell(7, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(7, 3, 1533);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'boat_WhatfloatsYourBoat')
+data.setCell(8, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(8, 3, 1268);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'boat_Logout')
+data.setCell(9, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(9, 3, 1224);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'boat_Earn100')
+data.setCell(10, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(10, 3, 1201);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'boat_MyAccount')
+data.setCell(11, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(11, 3, 1172);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'boat_ManageYourOrder')
+data.setCell(12, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(12, 3, 1155);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'boat_OfferZone')
+data.setCell(13, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(13, 3, 1133);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'boat_MeettheBoatHeads')
+data.setCell(14, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(14, 3, 1100);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'boat_ServiceCenter')
+data.setCell(15, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(15, 3, 84);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'boat_ReturnPolicy')
+data.setCell(16, 2, 'boatLifeStyle.Boat_Shop')
+data.setCell(16, 3, 47);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">boatLifeStyle.Boat_Shop</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">boat_Login</span>
+                <span class="method-start">16905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">boat_smokeTesting</span>
+                <span class="method-start">43941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">boat_Shop</span>
+                <span class="method-start">79234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_Sailwithboat</span>
+                <span class="method-start">103354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_Gifting</span>
+                <span class="method-start">109189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_OfferZone</span>
+                <span class="method-start">110733 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_WhatfloatsYourBoat</span>
+                <span class="method-start">111884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_MeettheBoatHeads</span>
+                <span class="method-start">113157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_Earn100</span>
+                <span class="method-start">114262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">boat_Searchbox</span>
+                <span class="method-start">115513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">boat_GiftCard</span>
+                <span class="method-start">149773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_ManageYourOrder</span>
+                <span class="method-start">165002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_MyAccount</span>
+                <span class="method-start">166164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_ServiceCenter</span>
+                <span class="method-start">167340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_Waranty</span>
+                <span class="method-start">167427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_ReturnPolicy</span>
+                <span class="method-start">170616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">boat_Logout</span>
+                <span class="method-start">170669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">171902 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

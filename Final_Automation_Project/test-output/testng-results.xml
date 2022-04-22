@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="5" failed="12" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-22T09:36:21 IST" name="Default suite" finished-at="2022-04-22T09:39:14 IST" duration-ms="172341">
+    <groups>
+    </groups>
+    <test started-at="2022-04-22T09:36:21 IST" name="Default test" finished-at="2022-04-22T09:39:14 IST" duration-ms="172341">
+      <class name="boatLifeStyle.Boat_Shop">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:36:21 IST" name="beforeTest" finished-at="2022-04-22T09:36:38 IST" duration-ms="16599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="boat_Login()[pri:1, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:36:38 IST" name="boat_Login" finished-at="2022-04-22T09:37:05 IST" duration-ms="26975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Login -->
+        <test-method signature="boat_smokeTesting()[pri:2, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:37:05 IST" name="boat_smokeTesting" finished-at="2022-04-22T09:37:41 IST" duration-ms="35287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_smokeTesting -->
+        <test-method signature="boat_Shop()[pri:3, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:37:41 IST" name="boat_Shop" finished-at="2022-04-22T09:38:05 IST" duration-ms="24076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Shop -->
+        <test-method signature="boat_Sailwithboat()[pri:4, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:05 IST" name="boat_Sailwithboat" finished-at="2022-04-22T09:38:11 IST" duration-ms="5777" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/collections/sail-with-boat">...</a> is not clickable at point (617, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=a87e21a9-6b23-41ee-85cd-bacb3d23427c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //a[@href='/collections/sail-with-boat']]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/collections/sail-with-boat">...</a> is not clickable at point (617, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=a87e21a9-6b23-41ee-85cd-bacb3d23427c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //a[@href='/collections/sail-with-boat']]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_Sailwithboat(Boat_Shop.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Sailwithboat -->
+        <test-method signature="boat_Gifting()[pri:5, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:11 IST" name="boat_Gifting" finished-at="2022-04-22T09:38:12 IST" duration-ms="1533" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_Gifting(Boat_Shop.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Gifting -->
+        <test-method signature="boat_OfferZone()[pri:6, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:12 IST" name="boat_OfferZone" finished-at="2022-04-22T09:38:13 IST" duration-ms="1133" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_OfferZone(Boat_Shop.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_OfferZone -->
+        <test-method signature="boat_WhatfloatsYourBoat()[pri:7, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:13 IST" name="boat_WhatfloatsYourBoat" finished-at="2022-04-22T09:38:15 IST" duration-ms="1268" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_WhatfloatsYourBoat(Boat_Shop.java:175)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_WhatfloatsYourBoat -->
+        <test-method signature="boat_MeettheBoatHeads()[pri:8, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:15 IST" name="boat_MeettheBoatHeads" finished-at="2022-04-22T09:38:16 IST" duration-ms="1100" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_MeettheBoatHeads(Boat_Shop.java:194)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_MeettheBoatHeads -->
+        <test-method signature="boat_Earn100()[pri:9, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:16 IST" name="boat_Earn100" finished-at="2022-04-22T09:38:17 IST" duration-ms="1201" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="has-children" aria-haspopup="true">...</a> is not clickable at point (711, 10). Other element would receive the click: <nmg-templates template="fun-4-template" props-as-string="{&quot;logoImage&quot;:{&quot;src&quot;:&quot;https://templates.nmgplatform.com/ibpuserimages/BOGWEO780/boat-lifestyle.com/109380d2-0fb6-4ec4-a129-ba75e2e14fda_mobile.jpeg&quot;,&quot;width&quot;:100,&quot;height&quot;:75},&quot;couponCodeLabel&quot;:{&quot;color&quot;:&quot;#000000&quot;,&quot;value&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;},&quot;couponCodeLabelSizing&quot;:{&quot;size&quot;:[8,12],&quot;sizeMobile&quot;:[6,8]},&quot;position&quot;:&quot;center_center&quot;,&quot;headingALabel&quot;:{&quot;value&quot;:[&quot;<span style=\&quot;font-weight: bold; color: rgb(223, 15, 15);\&quot;>SPECIAL</span>&quot;,&quot;<span style=\&quot;font-weight: bold; color: rgb(224, 13, 13);\&quot;>OFF</span>&quot;],&quot;color&quot;:&quot;rgb(223, 15, 15)&quot;},&quot;headingALabelSizing&quot;:{&quot;size&quot;:[16,42],&quot;sizeMobile&quot;:[12,32]},&quot;headingBLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255); font-weight: bold;\&quot;>ONLY FOR YOU!</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;headingBLabelSizing&quot;:{&quot;size&quot;:[12,16],&quot;sizeMobile&quot;:[8,16]},&quot;timeHeadlineLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(254, 251, 251); font-weight: bold;\&quot;>Offer expires:</span>&quot;,&quot;color&quot;:&quot;#FEFBFB&quot;},&quot;timeHeadlineLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;timePhraseLabel&quot;:{&quot;value&quot;:&quot;By the end of the day&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;timePhraseLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,10]},&quot;ctaLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;font-weight: bold; color: rgb(0, 0, 0);\&quot;>Copy Coupon Code</span>&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaConfirmationLabel&quot;:{&quot;value&quot;:&quot;Copied!&quot;,&quot;color&quot;:&quot;#000000&quot;},&quot;ctaLabelSizing&quot;:{&quot;size&quot;:[10,14],&quot;sizeMobile&quot;:[8,16]},&quot;noteLabel&quot;:{&quot;value&quot;:&quot;<span style=\&quot;color: rgb(255, 255, 255);\&quot;>*SOME ITEMS MAY BE EXCLUDED</span>&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;noteLabelSizing&quot;:{&quot;size&quot;:[10,12],&quot;sizeMobile&quot;:[6,8]},&quot;poweredByLabel&quot;:null,&quot;overlay&quot;:false,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;isTimer&quot;:true,&quot;complementaryColors&quot;:[&quot;#FFFAFA&quot;,&quot;#B71616&quot;,&quot;#000000&quot;],&quot;couponCodeVisible&quot;:false,&quot;withXButton&quot;:true,&quot;positionType&quot;:&quot;absolute&quot;,&quot;timeBackgroundColor&quot;:&quot;unset&quot;,&quot;endTime&quot;:&quot;2022-04-22T17:59:59.000Z&quot;,&quot;scale&quot;:&quot;1&quot;,&quot;showBlackBG&quot;:true,&quot;isClient&quot;:true,&quot;discountValue&quot;:10,&quot;currency&quot;:&quot;%&quot;,&quot;couponCode&quot;:&quot;NMG-U8N6-GVHD-58GY&quot;}" id="nmg-templates" class="needsclick" dates-as-string="[&quot;endTime&quot;]" style="pointer-events: auto;"></nmg-templates>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=86c6ba76-7e05-4b82-a218-9bbf6adff069}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[2]/ul/li[3]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_Earn100(Boat_Shop.java:208)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Earn100 -->
+        <test-method signature="boat_Searchbox()[pri:10, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:17 IST" name="boat_Searchbox" finished-at="2022-04-22T09:38:51 IST" duration-ms="34249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Searchbox -->
+        <test-method signature="boat_GiftCard()[pri:11, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:38:51 IST" name="boat_GiftCard" finished-at="2022-04-22T09:39:06 IST" duration-ms="15226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_GiftCard -->
+        <test-method signature="boat_ManageYourOrder()[pri:12, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:06 IST" name="boat_ManageYourOrder" finished-at="2022-04-22T09:39:08 IST" duration-ms="1155" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="user" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823"> is not clickable at point (1257, 72). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="user" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823"> is not clickable at point (1257, 72). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_ManageYourOrder(Boat_Shop.java:270)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_ManageYourOrder -->
+        <test-method signature="boat_MyAccount()[pri:13, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:08 IST" name="boat_MyAccount" finished-at="2022-04-22T09:39:09 IST" duration-ms="1172" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="user" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823"> is not clickable at point (1257, 72). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="user" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823"> is not clickable at point (1257, 72). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_MyAccount(Boat_Shop.java:282)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_MyAccount -->
+        <test-method signature="boat_ServiceCenter()[pri:14, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:09 IST" name="boat_ServiceCenter" finished-at="2022-04-22T09:39:09 IST" duration-ms="84" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="menu-tier-2"]/ul/li[4]/a"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, findElement {using=xpath, value=//*[@id="menu-tier-2"]/ul/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="menu-tier-2"]/ul/li[4]/a"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, findElement {using=xpath, value=//*[@id="menu-tier-2"]/ul/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at boatLifeStyle.Boat_Shop.boat_ServiceCenter(Boat_Shop.java:294)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_ServiceCenter -->
+        <test-method signature="boat_Waranty()[pri:15, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:09 IST" name="boat_Waranty" finished-at="2022-04-22T09:39:12 IST" duration-ms="3185" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="http://support.boat-lifestyle.com/" class="">...</a> is not clickable at point (815, 173). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=d5691d7a-2da6-43c4-9548-eac3762f23cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="shopify-section-footer"]/div[1]/div[2]/div[1]/div[2]/div[2]/div/div/ul/li/ul/li[2]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="http://support.boat-lifestyle.com/" class="">...</a> is not clickable at point (815, 173). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=d5691d7a-2da6-43c4-9548-eac3762f23cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="shopify-section-footer"]/div[1]/div[2]/div[1]/div[2]/div[2]/div/div/ul/li/ul/li[2]/a]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_Waranty(Boat_Shop.java:312)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Waranty -->
+        <test-method signature="boat_ReturnPolicy()[pri:16, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:12 IST" name="boat_ReturnPolicy" finished-at="2022-04-22T09:39:12 IST" duration-ms="47" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="menu-tier-2"]/ul/li[3]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, findElement {using=xpath, value=//*[@id="menu-tier-2"]/ul/li[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="menu-tier-2"]/ul/li[3]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, findElement {using=xpath, value=//*[@id="menu-tier-2"]/ul/li[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at boatLifeStyle.Boat_Shop.boat_ReturnPolicy(Boat_Shop.java:319)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_ReturnPolicy -->
+        <test-method signature="boat_Logout()[pri:17, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:12 IST" name="boat_Logout" finished-at="2022-04-22T09:39:13 IST" duration-ms="1224" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="user" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823"> is not clickable at point (1257, 10). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="user" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823"> is not clickable at point (1257, 10). Other element would receive the click: <iframe id="BIS_frame" frameborder="0" src="about:blank" allowtransparency="true" style="display: block;"></iframe>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-M3CURGL', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [074477ceb418cec6329dc2476cf329f3, clickElement {id=8cefee9f-a8ee-4391-afed-044bce664971}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50756/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (074477ceb418cec6329dc2476cf329f3)] -> xpath: //*[@id="pageheader"]/div[2]/div[5]/div/div[2]/span[1]/img]
+Session ID: 074477ceb418cec6329dc2476cf329f3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at boatLifeStyle.Boat_Shop.boat_Logout(Boat_Shop.java:328)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boat_Logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:boatLifeStyle.Boat_Shop@5ffead27]" started-at="2022-04-22T09:39:13 IST" name="afterTest" finished-at="2022-04-22T09:39:14 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- boatLifeStyle.Boat_Shop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
